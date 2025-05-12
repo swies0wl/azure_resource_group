@@ -6,5 +6,5 @@ resource "azurerm_resource_group" "this" {
 }
 
 output "resource_group_name_main" {
-  value = azurerm_resource_group.this.name
+  value = resource.azurerm_resource_group.this.name
 }
