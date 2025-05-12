@@ -5,6 +5,6 @@ resource "azurerm_resource_group" "this" {
   tags     = var.tags
 }
 
-output "resource_group_name" {
+output "resource_group_name_main" {
   value = azurerm_resource_group.this.name
 }
